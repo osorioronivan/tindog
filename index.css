@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(#FFFF, #F6F7FB);
+}
+header{
+    height: 10vh;
+    padding: 0px 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    display: flex;
+
+}
+.logo-bg{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#FA695A, #F83375);
+    padding: 5px 25px;
+    border-radius: 30px;
+}
+main{
+    height: 90vh;
+}
+.image-container{
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 15px;
+    height: 85%;
+    position: relative;
+}
+.status{
+    top: 50px;
+    left: 20px;
+    position: absolute;
+    transform: rotate(-30deg);
+}
+.dog-image{
+    height: 100%;
+    overflow: hidden;
+}
+.img-dog{
+    object-fit: cover;
+    height: 100%;
+}
+.dog-details{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #f8f8f8;
+}
+.dog-name{
+    font-weight:600;
+}
+.dog-bio{
+    font-weight: 400;
+}
+.controls-container{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: none;
+    background-color: #FFFF;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.liked{
+    background-color: #DBFFF4;
+}
+.swiped{
+    background-color: #FFE7EF;
+}
