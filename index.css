@@ -36,6 +36,17 @@ ul li{
 }
 main{
     height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.dog-container{
+    height: 100%;
+    overflow: hidden;
+    width: 375px;
 }
 .image-container{
     overflow: hidden;
@@ -53,6 +64,8 @@ main{
 .dog-image{
     height: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .img-dog{
     object-fit: cover;
